@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+/* Begin PBXBuildFile section */
+		00ABB139EC43CE9E6F667BB8 /* DuoTradeWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 01C959939E6A4D911229F28C /* DuoTradeWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2E21F2C87485F8608A5A0E7F /* MarketData in Frameworks */ = {isa = PBXBuildFile; productRef = 6138DFF826446576B7A7F9A4 /* MarketData */; };
+		6669040418223F1E0C540D1A /* QuantEngine in Frameworks */ = {isa = PBXBuildFile; productRef = BD53D37DB9ABB1737EDC6E43 /* QuantEngine */; };
+		49CD95E7CCA2FC6B6BF452E3 /* Trading in Frameworks */ = {isa = PBXBuildFile; productRef = 88A5825768D9AF851E9697EC /* Trading */; };
+		52C7070937549EF3B14318DC /* ChartEngine in Frameworks */ = {isa = PBXBuildFile; productRef = FA284B6DBF0AAB68546D7DE4 /* ChartEngine */; };
+		79BFB13D8FBE045697C5BB0D /* WorkspaceModel in Frameworks */ = {isa = PBXBuildFile; productRef = 58E2C77DDA9A2973DF437948 /* WorkspaceModel */; };
+		D88E572605349A6E4FB94888 /* ChartRendering in Frameworks */ = {isa = PBXBuildFile; productRef = 55CAB53326B08BE2F71BC31F /* ChartRendering */; };
+		73CACEE718165E4DE2360C5F /* ScriptRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = ED80652F220862D9A8E2B782 /* ScriptRuntime */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B43F48D50E96655AFF9EAF26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D229BA51023BC7AD693D7079 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE8EBC8274F5A0FBCC6C3BD9;
+			remoteInfo = DuoTradeWidgets;
+		};
+		BCC0A8D8D1E0675216D9BAAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D229BA51023BC7AD693D7079 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A61EA378090081DA0793BE37;
+			remoteInfo = DuoTrade;
+		};
+		EA3A0B1438A6D28B4F9D3E83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D229BA51023BC7AD693D7079 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A61EA378090081DA0793BE37;
+			remoteInfo = DuoTrade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BBB0E2545F50578A8F8B7F7C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				00ABB139EC43CE9E6F667BB8 /* DuoTradeWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4CAA1B8DAD4A42305ED70A86 /* DuoTrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuoTrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C959939E6A4D911229F28C /* DuoTradeWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DuoTradeWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A523C51878027DD0590584A1 /* DuoTradeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuoTradeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38355C9E3C2B8299ABE4B422 /* DuoTradeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuoTradeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1524C41E152110E52B5E6533 /* DuoTrade-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DuoTrade-Info.plist"; sourceTree = "<group>"; };
+		36C0C4171CA1AACC7F9E6218 /* DuoTradeWidgets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DuoTradeWidgets-Info.plist"; sourceTree = "<group>"; };
+		86A49F98DF27B898E03C26CA /* CLAUDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CLAUDE.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3B1BE5F32AED8C2C2DF6846D /* App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = App;
+			sourceTree = "<group>";
+		};
+		FDF37CF430B22C525EF7778E /* Features */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Features;
+			sourceTree = "<group>";
+		};
+		47D30525F26A76218B69C3D9 /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		60193A2B3A7FF90B5E134E26 /* Widgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		8713A11B23BF96E7FB44195A /* DuoTradeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DuoTradeTests;
+			sourceTree = "<group>";
+		};
+		03BC6B4B7CE129F19B98B852 /* DuoTradeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DuoTradeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9B69623163C7E3C2B9CD6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E21F2C87485F8608A5A0E7F /* MarketData in Frameworks */,
+				6669040418223F1E0C540D1A /* QuantEngine in Frameworks */,
+				49CD95E7CCA2FC6B6BF452E3 /* Trading in Frameworks */,
+				52C7070937549EF3B14318DC /* ChartEngine in Frameworks */,
+				79BFB13D8FBE045697C5BB0D /* WorkspaceModel in Frameworks */,
+				D88E572605349A6E4FB94888 /* ChartRendering in Frameworks */,
+				73CACEE718165E4DE2360C5F /* ScriptRuntime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8E7C150A823265D7A266407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8052E419D388086563DC318C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136E94B5BF3D749DDD775428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76F64CF691B735822BDF549F = {
+			isa = PBXGroup;
+			children = (
+				86A49F98DF27B898E03C26CA /* CLAUDE.md */,
+				3B1BE5F32AED8C2C2DF6846D /* App */,
+				FDF37CF430B22C525EF7778E /* Features */,
+				47D30525F26A76218B69C3D9 /* Shared */,
+				60193A2B3A7FF90B5E134E26 /* Widgets */,
+				AC5DBF2D24E59EEAA21C08D7 /* Tests */,
+				446F9E19BABBAE07CD9CDAA6 /* Config */,
+				A4EBF3852EFDA7C372AFFCA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC5DBF2D24E59EEAA21C08D7 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8713A11B23BF96E7FB44195A /* DuoTradeTests */,
+				03BC6B4B7CE129F19B98B852 /* DuoTradeUITests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		446F9E19BABBAE07CD9CDAA6 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1524C41E152110E52B5E6533 /* DuoTrade-Info.plist */,
+				36C0C4171CA1AACC7F9E6218 /* DuoTradeWidgets-Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		A4EBF3852EFDA7C372AFFCA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CAA1B8DAD4A42305ED70A86 /* DuoTrade.app */,
+				01C959939E6A4D911229F28C /* DuoTradeWidgets.appex */,
+				A523C51878027DD0590584A1 /* DuoTradeTests.xctest */,
+				38355C9E3C2B8299ABE4B422 /* DuoTradeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A61EA378090081DA0793BE37 /* DuoTrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FCCC0ED9B778EAF23CF49A3 /* Build configuration list for PBXNativeTarget "DuoTrade" */;
+			buildPhases = (
+				E5482EC04BDCB932FAE85B86 /* Sources */,
+				A9B69623163C7E3C2B9CD6FE /* Frameworks */,
+				3C3E26D2DE1FC74C67406E30 /* Resources */,
+				BBB0E2545F50578A8F8B7F7C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDAE173AF9BBA1684ABED9E7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3B1BE5F32AED8C2C2DF6846D /* App */,
+				FDF37CF430B22C525EF7778E /* Features */,
+				47D30525F26A76218B69C3D9 /* Shared */,
+			);
+			name = DuoTrade;
+			packageProductDependencies = (
+				6138DFF826446576B7A7F9A4 /* MarketData */,
+				BD53D37DB9ABB1737EDC6E43 /* QuantEngine */,
+				88A5825768D9AF851E9697EC /* Trading */,
+				FA284B6DBF0AAB68546D7DE4 /* ChartEngine */,
+				58E2C77DDA9A2973DF437948 /* WorkspaceModel */,
+				55CAB53326B08BE2F71BC31F /* ChartRendering */,
+				ED80652F220862D9A8E2B782 /* ScriptRuntime */,
+			);
+			productName = DuoTrade;
+			productReference = 4CAA1B8DAD4A42305ED70A86 /* DuoTrade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE8EBC8274F5A0FBCC6C3BD9 /* DuoTradeWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D16087B2D6D6F3F69CDE8F0 /* Build configuration list for PBXNativeTarget "DuoTradeWidgets" */;
+			buildPhases = (
+				14938BB91D84A2D4E2AA4475 /* Sources */,
+				D8E7C150A823265D7A266407 /* Frameworks */,
+				3F189E76B4F261E100265E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				60193A2B3A7FF90B5E134E26 /* Widgets */,
+				47D30525F26A76218B69C3D9 /* Shared */,
+			);
+			name = DuoTradeWidgets;
+			packageProductDependencies = (
+			);
+			productName = DuoTradeWidgets;
+			productReference = 01C959939E6A4D911229F28C /* DuoTradeWidgets */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AFC7C4C6ECD7E1F171BE35C5 /* DuoTradeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A9E5A438B91A87040AC9CA9 /* Build configuration list for PBXNativeTarget "DuoTradeTests" */;
+			buildPhases = (
+				084F8C811FF43B1AD1E75ED5 /* Sources */,
+				8052E419D388086563DC318C /* Frameworks */,
+				9313418C8864CD234551C750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1EEA9F46ECDA481CBCC3009 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8713A11B23BF96E7FB44195A /* DuoTradeTests */,
+			);
+			name = DuoTradeTests;
+			packageProductDependencies = (
+			);
+			productName = DuoTradeTests;
+			productReference = A523C51878027DD0590584A1 /* DuoTradeTests */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		623A02B44CE779B1819D8708 /* DuoTradeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D112243AE9A00FAFC1C40D18 /* Build configuration list for PBXNativeTarget "DuoTradeUITests" */;
+			buildPhases = (
+				C33F22491CC0C1ED36D5D9DB /* Sources */,
+				136E94B5BF3D749DDD775428 /* Frameworks */,
+				B94E8FECE639528955B2B9DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C60AAAB84805897153088417 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				03BC6B4B7CE129F19B98B852 /* DuoTradeUITests */,
+			);
+			name = DuoTradeUITests;
+			packageProductDependencies = (
+			);
+			productName = DuoTradeUITests;
+			productReference = 38355C9E3C2B8299ABE4B422 /* DuoTradeUITests */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D229BA51023BC7AD693D7079 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					A61EA378090081DA0793BE37 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					AE8EBC8274F5A0FBCC6C3BD9 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					AFC7C4C6ECD7E1F171BE35C5 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = A61EA378090081DA0793BE37;
+					};
+					623A02B44CE779B1819D8708 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = A61EA378090081DA0793BE37;
+					};
+				};
+			};
+			buildConfigurationList = 319BEA28E7663B755DC13BFF /* Build configuration list for PBXProject "DuoTrade" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76F64CF691B735822BDF549F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5B63FEF8F07582DD9C790784 /* XCLocalSwiftPackageReference "Core" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A4EBF3852EFDA7C372AFFCA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A61EA378090081DA0793BE37 /* DuoTrade */,
+				AE8EBC8274F5A0FBCC6C3BD9 /* DuoTradeWidgets */,
+				AFC7C4C6ECD7E1F171BE35C5 /* DuoTradeTests */,
+				623A02B44CE779B1819D8708 /* DuoTradeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C3E26D2DE1FC74C67406E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F189E76B4F261E100265E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9313418C8864CD234551C750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94E8FECE639528955B2B9DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5482EC04BDCB932FAE85B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14938BB91D84A2D4E2AA4475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084F8C811FF43B1AD1E75ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33F22491CC0C1ED36D5D9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDAE173AF9BBA1684ABED9E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE8EBC8274F5A0FBCC6C3BD9 /* DuoTradeWidgets */;
+			targetProxy = B43F48D50E96655AFF9EAF26 /* PBXContainerItemProxy */;
+		};
+		F1EEA9F46ECDA481CBCC3009 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A61EA378090081DA0793BE37 /* DuoTrade */;
+			targetProxy = BCC0A8D8D1E0675216D9BAAD /* PBXContainerItemProxy */;
+		};
+		C60AAAB84805897153088417 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A61EA378090081DA0793BE37 /* DuoTrade */;
+			targetProxy = EA3A0B1438A6D28B4F9D3E83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B8835DD23D4C10741915C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 27.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		61E678AD764CBCCF920761B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D65B2267CFD017121B71D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/DuoTrade-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DuoTrade;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "DuoTrade uses Face ID or Touch ID to confirm paper-trading orders.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.duotrade.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F397C2AB14EC1AEE81314F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/DuoTrade-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DuoTrade;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "DuoTrade uses Face ID or Touch ID to confirm paper-trading orders.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.duotrade.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1CC19F3FA0649FAE154B80B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/DuoTradeWidgets-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DuoTrade;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.duotrade.app.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B2839D93468A39ECBA753B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/DuoTradeWidgets-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DuoTrade;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.duotrade.app.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4630F8782FF39C79048EB3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.duotrade.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DuoTrade.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DuoTrade";
+			};
+			name = Debug;
+		};
+		0698FB8E356E3DD02A1060FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.duotrade.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DuoTrade.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DuoTrade";
+			};
+			name = Release;
+		};
+		B928FB1F39B16A64DBB96C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.duotrade.app.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = DuoTrade;
+			};
+			name = Debug;
+		};
+		5B9AF9B3C28D0C1C8F65990B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.duotrade.app.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = DuoTrade;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		319BEA28E7663B755DC13BFF /* Build configuration list for PBXProject "DuoTrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8835DD23D4C10741915C0F /* Debug */,
+				61E678AD764CBCCF920761B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FCCC0ED9B778EAF23CF49A3 /* Build configuration list for PBXNativeTarget "DuoTrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D65B2267CFD017121B71D2D /* Debug */,
+				F397C2AB14EC1AEE81314F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D16087B2D6D6F3F69CDE8F0 /* Build configuration list for PBXNativeTarget "DuoTradeWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC19F3FA0649FAE154B80B3 /* Debug */,
+				B2839D93468A39ECBA753B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A9E5A438B91A87040AC9CA9 /* Build configuration list for PBXNativeTarget "DuoTradeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4630F8782FF39C79048EB3D6 /* Debug */,
+				0698FB8E356E3DD02A1060FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D112243AE9A00FAFC1C40D18 /* Build configuration list for PBXNativeTarget "DuoTradeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B928FB1F39B16A64DBB96C23 /* Debug */,
+				5B9AF9B3C28D0C1C8F65990B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		5B63FEF8F07582DD9C790784 /* XCLocalSwiftPackageReference "Core" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Core;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6138DFF826446576B7A7F9A4 /* MarketData */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MarketData;
+		};
+		BD53D37DB9ABB1737EDC6E43 /* QuantEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = QuantEngine;
+		};
+		88A5825768D9AF851E9697EC /* Trading */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Trading;
+		};
+		FA284B6DBF0AAB68546D7DE4 /* ChartEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ChartEngine;
+		};
+		58E2C77DDA9A2973DF437948 /* WorkspaceModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WorkspaceModel;
+		};
+		55CAB53326B08BE2F71BC31F /* ChartRendering */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ChartRendering;
+		};
+		ED80652F220862D9A8E2B782 /* ScriptRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ScriptRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D229BA51023BC7AD693D7079 /* Project object */;
+}
